@@ -1,8 +1,8 @@
 extends ../layout
 
 block content
-  .pb-2.mt-2.mb-4.border-bottom
-    h3 Sign in
+  .form-header
+    p Sign in to ManagedKube
   form(method='POST')
     input(type='hidden', name='_csrf', value=_csrf)
     .form-group.row
