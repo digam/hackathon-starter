@@ -41,23 +41,27 @@
 // -------------------------
 
 .navbar-light {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 80px;
+  box-shadow: 0 1px 2px 0 #999;
   border: 0;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   background: #ffffff;
-  opacity: 0.9;
   .navbar-nav {
     > li > a {
       font-size: 12px;
       font-weight: 500;
-      text-transform: uppercase;
       transition: all 0.2s linear;
       padding-top: 10px;
       padding-bottom: 10px;
     }
     .nav-link {
-      color: black;
       padding-left: 15px;
       padding-right: 15px;
+      color: #4A4A4A;
+      font-size: 18px;
+      transition: color .2s ease
     }
   }
   .navbar-brand {
